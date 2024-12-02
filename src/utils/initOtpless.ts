@@ -13,7 +13,6 @@ export const initOTPless = (callback: Function): void => {
 		script.id = 'otpless-sdk'
 		script.type = 'text/javascript'
 		script.src="https://otpless.com/v3/headless.js"
-		// script.src = 'https://otpless.com/v2/headless.js'
 		// Get your app id from https://otpless.com/dashboard/customer/dev-settings
 		script.setAttribute('data-appid', 'Your_app_id')
 		// TODO: Add your app id					^here
